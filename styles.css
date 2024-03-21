@@ -1,0 +1,46 @@
+.calendar {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 400px;
+}
+.month {
+  margin-bottom: 20px;
+}
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+}
+.day {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.today {
+  background-color: #ffcc00;
+  color: red;
+}
+.weekend {
+  color: #aaa;
+}
+.marked {
+  background-color: #aaf2ff;
+}
+.closed {
+  background-color: #ff9999;
+  color: #fff;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.navigation button {
+  width: 100px;
+  background-color: white;
+  color: black;
+  border: 2px solid #fff;
+}
